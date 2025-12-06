@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "test@demo.com",
+      "password": "123456"
+    },
+    {
+      "id": "ef0a",
+      "email": "sp78@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "products": [
+    {
+      "id": "101",
+      "name": "Laptop",
+      "price": 50000,
+      "stock": 10,
+      "category": "Electronics"
+    },
+    {
+      "id": "102",
+      "name": "Phone",
+      "price": 20000,
+      "stock": 0,
+      "category": "Electronics"
+    },
+    {
+      "id": "12dd",
+      "name": "Earbud",
+      "price": 2000,
+      "stock": 5,
+      "category": "Electronics"
+    }
+  ],
+  "cart": [
+    {
+      "id": "e343",
+      "productId": "101",
+      "quantity": 2,
+      "userId": "1"
+    },
+    {
+      "quantity": 6,
+      "id": "c168"
+    },
+    {
+      "id": "4c25",
+      "productId": "101",
+      "quantity": 2,
+      "userId": "1"
+    },
+    {
+      "id": "c7d6",
+      "productId": "101",
+      "quantity": 2,
+      "userId": "1"
+    },
+    {
+      "id": "b77a",
+      "productId": "101",
+      "quantity": 2,
+      "userId": "1"
+    },
+    {
+      "id": "e5c3",
+      "productId": "101",
+      "quantity": 5,
+      "userId": "1"
+    },
+    {
+      "id": "bb71",
+      "productId": "101",
+      "quantity": 1,
+      "userId": "1"
+    }
+  ],
+  "orders": [
+    {
+      "id": "b57d",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "101",
+          "quantity": 2
+        }
+      ],
+      "total": 100000
+    },
+    {
+      "id": "df85",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "101",
+          "quantity": 5
+        }
+      ],
+      "total": 500000
+    },
+    {
+      "id": "b858",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "101",
+          "quantity": 5
+        }
+      ],
+      "total": 500000
+    }
+  ]
+}
